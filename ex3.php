@@ -1,8 +1,10 @@
 <?php 
 $a=rand(1,100);
-$b=rand(1,100);
-echo $a.  " x ".$b;
-$c=$a*$b;
-echo "<br>";
-echo "A tabuada é " .$c;
+$b=1;
+while ($b <= 20) {
+	$tab=$a*$b;
+	echo "<br>";
+	echo $a." x " .$b. " = ".$tab;
+	$b++;
+}
  ?>
